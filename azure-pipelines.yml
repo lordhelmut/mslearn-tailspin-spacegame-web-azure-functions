@@ -118,7 +118,7 @@ stages:
           #       ]
           - task: AzureAppServiceSettings@1
             inputs:
-              azureSubscription: 'Resource Manager - Tailspin - Space Game'
+              azureSubscription: 'Resource Manager - TestEnv'
               appName: 'tailspin-space-game-leaderboard-4186'
               resourceGroupName: 'rg-vira-test-westus2'
               appSettings: |
